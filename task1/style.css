@@ -1,0 +1,21 @@
+.btn {
+    width: 100px;
+    min-height: 50px;
+    margin-top: 100px;
+    margin-left: 300px;
+    background-color: #16C8BB;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-text {
+    margin-bottom: 5px;
+}
+
+.btn-icon {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    height: 10px;
+    width: 50px;
+}
