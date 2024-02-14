@@ -1,8 +1,10 @@
 const btn = document.querySelector('.btn');
-const icon = document.querySelector('.btn-icon');
+const iconDark = document.querySelector('.dark');
+const iconLight = document.querySelector('.light')
 
 btn.addEventListener('click', () => {
-   icon.classList.toggle('hidden');
+   iconDark.classList.toggle('hidden');
+   iconLight.classList.toggle('hidden');
 })
 
 
