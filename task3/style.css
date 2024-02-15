@@ -1,0 +1,40 @@
+.input {
+    width: 200px;
+    min-height: 49px;
+    margin-left: 100px;
+    padding: 0px 20px;
+    border: 1px solid rgba(157, 157, 157, 0.2);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9D9D9D;
+}
+
+.btn {
+    width: 100px;
+    min-height: 50px;
+    margin-top: 100px;
+    margin-left: -30px;
+    background-color: #16C8BB;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-geo {
+    margin-left: 10px;
+}
+
+.output {
+    margin-left: 100px;
+    width: 428px;
+    min-height: 350px;
+    border: 1px solid rgba(157, 157, 157, 0.2);
+    border-radius: 4px;
+}
+
