@@ -4,7 +4,7 @@ const btn = document.querySelector('.btn');
 const btnGeo = document.querySelector('.btn-geo');
 const output = document.querySelector('.output');
 
-let websocket;
+const websocket = new WebSocket(wsUri);
 
 function writeToScreen(message) {
   let pre = document.createElement("p");
@@ -14,7 +14,6 @@ function writeToScreen(message) {
 }
 
 btn.addEventListener('click', () => {
-  websocket = new WebSocket(wsUri);
   websocket.onmessage = function(evt) {
     writeToScreen(
       '<span style="color: blue;">RESPONSE: ' + evt.data+'</span>'
